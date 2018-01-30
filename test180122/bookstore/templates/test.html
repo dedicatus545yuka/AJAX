@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script>
+        $('#get').click(
+            function () {
+                $.ajax({
+                    url:'/users/',
+                })
+            }
+        )
+    </script>
+</head>
+<body>
+    <p style="color: hotpink">i love you saya!</p>
+    <button style="color: blue" id="get">获取</button>
+</body>
+</html>
